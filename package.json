@@ -1,0 +1,30 @@
+{
+  "name": "ascii-art-converter",
+  "version": "1.0.0",
+  "main": "asciiart.js",
+  "type": "module",
+  "bin": {
+    "ascii-art": "./asciiart.js"
+  },
+  "scripts": {
+    "start": "node asciiart.js"
+  },
+  "keywords": [
+    "ascii",
+    "art",
+    "image",
+    "converter",
+    "cli",
+    "ascii-art",
+    "image-converter"
+  ],
+  "author": "nitheshkannan",
+  "license": "MIT",
+  "description": "A command-line tool to convert images into ASCII art with color support",
+  "dependencies": {
+    "ascii-art-converter": "^1.0.0",
+    "canvas": "^3.2.0",
+    "commander": "^14.0.1",
+    "jimp": "^1.6.0"
+  }
+}
